@@ -30,12 +30,7 @@ This technique gives favor to data points which are not near another initial cen
 2) Initializes centroids via k-means++ algorithm, for faster convergence
 3) Calculates silhouette score for evaluation
 4) Option to scale data before clustering, so that output isn't biased by different feature scales
-5) Works with high-dimensional data
-
-## Steps :
-1)
-2)
-3) 
+5) Works with high-dimensional data 
 
 ## library :
 1) os
@@ -45,3 +40,6 @@ This technique gives favor to data points which are not near another initial cen
 5) sklearn - sklearn.preprocessing, sklearn.cluster, sklearn.metrics
 6) from scipy.spatial.distance import cdist
 7) cluster_profiles
+
+## Conclusions : 
+Accuracy for kmeans cluster analysis is 28.3%.
