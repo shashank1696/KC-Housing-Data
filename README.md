@@ -36,3 +36,12 @@ This technique gives favor to data points which are not near another initial cen
 1)
 2)
 3) 
+
+## library :
+1) os
+2) pandas
+3) numpy
+4) matplotlib.pyplot
+5) sklearn - sklearn.preprocessing, sklearn.cluster, sklearn.metrics
+6) from scipy.spatial.distance import cdist
+7) cluster_profiles
