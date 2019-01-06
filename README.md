@@ -1,12 +1,13 @@
 # KC-Housing-Data
 Clustering Analysis of housing data by checking the other attributes using KMeans Algorithm
+
 ## Description
 k-means attempts to identify a user specified k(<N) number of clusters from a set of N d-dimensional real valued vectors. The algorithm proceeds by attempting to minimize the sum of squared distances from a cluster center, to the cluster members. The canonical algorithm proceeds in three phases:
 
 1) Initialise k random centroids (cluster centers);
-2) assign data points to nearest cluster according to distance metric (typically Euclidean distance);
-3) update the centroids to the mean of the members of the cluster;
-4) repeat steps 2 & 3 until the assignments from step 2 do not change.
+2) Assign data points to nearest cluster according to distance metric (typically Euclidean distance);
+3) Update the centroids to the mean of the members of the cluster;
+4) Repeat steps 2 & 3 until the assignments from step 2 do not change.
 
 The output of the algorithm is a cluster assignment for each data point, and a final level of "distortion". The algorithm does not produce a provably optimal solution, and initial cluster centers may cause the algorithm to get stuck in a locally optimum solution that is clearly sub-optimal.
 
