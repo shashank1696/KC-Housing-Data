@@ -17,9 +17,10 @@ Much research has focused on:
 ## K-Means++
 Rather than initialize random centroids as in step 1 above, k-means++ probabilistically spreads out the initial centroids to avoid poor initial configuration, the algorithm is:
 
-Choose first centroid randomly.
-For each data point x, compute the distance d(x), from x to the nearest centroid that has already been chosen.
-Select a data point to be the next centroid using a weighted probability proportional to d(x)2.
+1) Choose first centroid randomly.
+2) For each data point x, compute the distance d(x), from x to the nearest centroid that has already been chosen.
+3) Select a data point to be the next centroid using a weighted probability proportional to d(x)2.
+
 This technique gives favor to data points which are not near another initial centroids, and uses a selection policy that is reminiscent of roulette wheel (or fitness proportionate) selection that is often used in genetic algorithms.
 
 ## Features :
