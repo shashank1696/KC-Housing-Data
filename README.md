@@ -33,15 +33,26 @@ This technique gives favor to data points which are not near another initial cen
 5) Works with high-dimensional data 
 
 ## Variables:
-1) Id(Integer)
-2) date(Date)
-3) price(Float)
-4) bedrooms(Integer)
-5) bathrooms(Integer)
-6) sqft_living
-7)
-8)
-9)
+1)  Id(Integer)
+2)  date(Date)
+3)  price(Float)
+4)  bedrooms(Integer)
+5)  bathrooms(Integer)
+6)  sqft_living(Integer)
+7)  sqft_lot(Integer)
+8)  floors(Float)
+9)  waterfront(Binary)
+10) view(Integer)
+11) grade(Integer)
+12) sqft_above(Integer)
+13) sqft_basement(Integer)
+14) yr_built(Integer)
+15) yr_renovated(Integer)
+16) zipcode(Integer)
+17) lat : Latitude
+18) lon : Longitude
+19) sqft_living15(Integer)
+20) sqft_lot15(Integer)
 
 ## library:
 1) os
