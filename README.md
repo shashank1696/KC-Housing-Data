@@ -63,5 +63,39 @@ This technique gives favor to data points which are not near another initial cen
 6) from scipy.spatial.distance import cdist
 7) cluster_profiles
 
-## Conclusions : 
+## Elbow curve:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Conclusions: 
 Accuracy for kmeans cluster analysis is 28.3%.
