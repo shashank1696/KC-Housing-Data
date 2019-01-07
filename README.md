@@ -1,7 +1,7 @@
 # KC-Housing-Data
 Clustering Analysis of housing data by checking the other attributes using KMeans Algorithm
 
-## Description
+## Description:
 k-means attempts to identify a user specified k(<N) number of clusters from a set of N d-dimensional real valued vectors. The algorithm proceeds by attempting to minimize the sum of squared distances from a cluster center, to the cluster members. The canonical algorithm proceeds in three phases:
 
 1) Initialise k random centroids (cluster centers);
@@ -32,7 +32,18 @@ This technique gives favor to data points which are not near another initial cen
 4) Option to scale data before clustering, so that output isn't biased by different feature scales
 5) Works with high-dimensional data 
 
-## library :
+## Variables:
+1) Id(Integer)
+2) date(Date)
+3) price(Float)
+4) bedrooms(Integer)
+5) bathrooms(Integer)
+6) sqft_living
+7)
+8)
+9)
+
+## library:
 1) os
 2) pandas
 3) numpy
