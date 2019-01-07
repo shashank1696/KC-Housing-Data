@@ -35,22 +35,22 @@ This technique gives favor to data points which are not near another initial cen
 ## Variables:
 1)  Id(Integer)
 2)  date(Date)
-3)  price(Float)
-4)  bedrooms(Integer)
-5)  bathrooms(Integer)
-6)  sqft_living(Integer)
-7)  sqft_lot(Integer)
-8)  floors(Float)
-9)  waterfront(Binary)
-10) view(Integer)
-11) grade(Integer)
+3)  price(Float) - Price of the house
+4)  bedrooms(Integer) - Number of Bedrooms
+5)  bathrooms(Integer) - Number of Bathrooms
+6)  sqft_living(Integer) - Square feet area of living area
+7)  sqft_lot(Integer) - Square feet area of parking Layout
+8)  floors(Float) - Number of Floors
+9)  waterfront(Binary) - Whether waterfront is there or not
+10) view(Integer) - Number of Views
+11) grade(Integer) - Grades
 12) sqft_above(Integer)
-13) sqft_basement(Integer)
-14) yr_built(Integer)
-15) yr_renovated(Integer)
-16) zipcode(Integer)
-17) lat : Latitude
-18) lon : Longitude
+13) sqft_basement(Integer) - Square feet area off basement
+14) yr_built(Integer) - Year the house is built
+15) yr_renovated(Integer) - Year the house is renovated
+16) zipcode(Integer) - zipcode os the house
+17) lat : Latitude of the house
+18) lon : Longitude of the house
 19) sqft_living15(Integer)
 20) sqft_lot15(Integer)
 
