@@ -67,4 +67,4 @@ This technique gives favor to data points which are not near another initial cen
 ![elbow_curve_kc_housinf](https://user-images.githubusercontent.com/44108439/50799621-c8215200-1302-11e9-8f7e-ed70beb19d02.png)
 - WSS: Weighted Sum Statistic
 ## Conclusions: 
-Accuracy for kmeans cluster analysis is 28.3%.
+Accuracy for kmeans cluster analysis is 0.290830730293 i.e., when Silhoutte score for k=8.
