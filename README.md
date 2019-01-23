@@ -1,5 +1,5 @@
 # KC-Housing-Data
-Clustering Analysis of housing data by checking the other attributes using KMeans Algorithm
+Clustering Analysis of housing data by checking the other attributes/variables which have to be considered using KMeans Algorithm.
 
 ## Description:
 k-means attempts to identify a user specified k(<N) number of clusters from a set of N d-dimensional real valued vectors. The algorithm proceeds by attempting to minimize the sum of squared distances from a cluster center, to the cluster members. The canonical algorithm proceeds in three phases:
