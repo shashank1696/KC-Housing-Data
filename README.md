@@ -72,4 +72,4 @@ This technique gives favor to data points which are not near another initial cen
 - Silhoutte score for k= 9 is 0.284943550666
 - Silhoutte score for k= 10 is 0.280298178657
 - From of the above Silhoutte scores, we can decide on the k value as 8. 
-Therefore, the Accuracy for kmeans cluster analysis is 29% i.e., when Silhoutte score for k=8.
+- Therefore, the Accuracy for kmeans cluster analysis is 29% i.e., when Silhoutte score for k=8.
